@@ -1,0 +1,80 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .close-button {
+    float: right;
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .phone-input, .verification-input {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  select {
+    width: 60px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .verification-input button {
+    margin-left: 10px;
+    width: auto;
+  }
+  
+  .terms {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .terms a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
